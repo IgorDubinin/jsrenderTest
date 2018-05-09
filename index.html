@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">ГазПром</a>
+            </div>
+        </div>
+    </div>
+
+    <hr></hr>
+    <div class="short-name-company container">
+	</div>
+
+    <div id="exTab2" class="container">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#1" data-toggle="tab">Общая</a>
+            </li>
+            <li>
+                <a href="#2" data-toggle="tab">Сотрудники</a>
+            </li>
+            <li>
+                <a href="#3" data-toggle="tab">Гос. контракты</a>
+            </li>
+            <li>
+                <a href="#4" data-toggle="tab">Контактная информация</a>
+            </li>
+        </ul>
+
+        <div class="tab-content ">
+            <div class="tab-pane active" id="1">
+                <!-- Название компании -->
+                <div class="company-name"></div>
+                <div class="panel-group" id="accordion">
+                    <!-- Панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Сферы деятельности</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <!-- Сферы деятельности -->
+                            <div class="okved-list panel-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="2">
+                <div class="panel-group" id="accordion2">
+                    <!-- 1 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Список руководства</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <!-- Сферы деятельности -->
+                            <div class="leader-list panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок 2 панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Совет директоров</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <!-- Содержимое 2 панели -->
+                            <div class="board-of-directors panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок 3 панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">Исполнительный орган</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <!-- Содержимое 3 панели -->
+                            <div class="executive-body panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок 4 панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">Лица без варранта</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <!-- Содержимое 4 панели -->
+                            <div class="persons-without-warrant panel-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="3">
+                <div class="panel-group" id="accordion3">
+                    <!-- 1 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion3" href="#collapseNine">Федеральный закон 94</a>
+                            </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                            <!-- Сферы деятельности -->
+                            <div class="federal-law94 panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок 2 панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion3" href="#collapseTen">Федеральный закон 223</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTen" class="panel-collapse collapse">
+                            <!-- Содержимое 2 панели -->
+                            <div class="federal-law223 panel-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="4">
+                <div class="panel-group" id="accordion4">
+                    <!-- 1 панель -->
+					<div class="company-site"></div>
+					<div class="company-email"></div>
+                    <div class="panel panel-default">
+                        <!-- Заголовок панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion4" href="#collapseSix">Адреса</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <!-- Содержимое 1 панели -->
+                            <div class="panel-body">
+                                <div class="panel-group" id="accordion41">
+                                    <!-- 1 панель -->
+                                    <div class="panel panel-default">
+                                        <!-- Заголовок 1 панели -->
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion41" href="#collapseOne_inner">Юридический адрес</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne_inner" class="panel-collapse collapse">
+                                            <!-- Содержимое 1 панели -->
+                                            <div class="legal-addresses panel-body">                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 панель -->
+                                    <div class="panel panel-default">
+                                        <!-- Заголовок 2 панели -->
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion41" href="#collapseTwo_inner">Дополнительный адрес</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo_inner" class="panel-collapse collapse">
+                                            <!-- Содержимое 2 панели -->
+                                            <div class="adjust-addresses panel-body">                                                
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<!-- 2 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок 2 панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion4" href="#collapseSeven">Номера телефонов</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <!-- Содержимое 2 панели -->
+                            <div class="phone-list panel-body">
+                            </div>
+                        </div>
+                    </div>
+					<!-- 2 панель -->
+                    <div class="panel panel-default">
+                        <!-- Заголовок 2 панели -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion4" href="#collapseEigth">Факс</a>
+                            </h4>
+                        </div>
+                        <div id="collapseEigth" class="panel-collapse collapse">
+                            <!-- Содержимое 2 панели -->
+                            <div class="fax-list panel-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Шаблон сферы деятельности -->
+            <script id="okvedListTemplate" type="text/x-jsrender">
+                {{* for (i=0; i<data.OKVEDList.length; i++) { }}
+                <h4>{{*:i+1}}. {{*:data.OKVEDList[i]["@Name"]}}</h4>
+                {{* } }}
+            </script>
+
+            <!-- Шаблон полное название компании -->
+            <script id="companyNameTemplate" type="text/x-jsrender">
+                <h4>Полное название компании - {{*:data}}</h4>
+            </script>
+			
+			<!-- Шаблон краткое название компании -->
+            <script id="companyShortNameTemplate" type="text/x-jsrender">
+                <h4>{{*:data}}</h4>
+            </script>
+
+            <!-- Шаблон список лидеров -->
+            <script id="leaderListTemplate" type="text/x-jsrender">
+                {{* for (i=0; i<data.LeaderList.length; i++) { }}
+                <h4>ФИО: {{*:data.LeaderList[i]["@FIO"]}}</h4>
+                <h4>Должность: {{*:data.LeaderList[i]["@Position"]}}</h4>
+                <h4>Дата: {{*:data.LeaderList[i]["@ActualDate"]}}</h4>
+                <h4>&nbsp;</h4>
+                {{* } }}
+            </script>
+
+            <!-- Шаблон совет директоров -->
+            <script id="boardOfDirectorsTemplate" type="text/x-jsrender">
+                {{for Member}}
+                {{if INN}}
+                <h4>Идентификационный номер: {{:INN}}</h4>
+                {{/if}}
+                <h4>ФИО: {{:Name}}</h4>
+                <h4>Год рождения: {{:BirthdayYear}}</h4>
+                <h4>Должность: {{:Position["@Name"]}}</h4>
+                {{if SharePart}}
+                <h4>Доля компании: {{:SharePart}}</h4>
+                {{/if}}
+                <h4>&nbsp;</h4>
+                {{/for}}
+            </script>
+
+            <!-- Шаблон исполнительный орган -->
+            <script id="executiveBodyTemplate" type="text/x-jsrender">
+                {{for Member}}
+					{{if INN}}
+						<h4>Идентификационный номер: {{:INN}}</h4>
+					{{/if}}
+					<h4>ФИО: {{:Name}}</h4>
+					<h4>Год рождения: {{:BirthdayYear}}</h4>
+					<h4>Должность: {{:Position["@Name"]}}</h4>
+					<h4>Доля компании: {{:SharePart}}</h4>
+					<h4>&nbsp;</h4>
+                {{/for}}
+            </script>
+
+            <!-- Шаблон лица без варранта -->
+            <script id="personsWithoutWarrantTemplate" type="text/x-jsrender">
+                <h4>ФИО: {{*:data["Person"]["@FIO"]}}</h4>
+                <h4>Должность: {{*:data["Person"]["@Position"]}}</h4>
+                <h4>Идентификационный номер: {{*:data["Person"]["@INN"]}}</h4>
+            </script>
+			
+			<!-- Шаблон юр. адрес -->
+            <script id="legalAddressesTemplate" type="text/x-jsrender">                
+                <h4>Почтовый индекс: {{*:data.Address["@PostCode"]}}</h4>
+				<h4>Полный адрес: {{*:data.Address["@Address"]}}</h4>
+				<h4>Регион: {{*:data.Address["@REGION"]}}</h4>
+				<h4>Город: {{*:data.Address["@CITY"]}}</h4>
+				<h4>Улица: {{*:data.Address["@STREETNAME"]}}</h4>
+				<h4>Дом: {{*:data.Address["@BUILDINGNUMBER"]}}</h4>                
+            </script>
+			
+			<!-- Шаблон доп. адрес -->
+            <script id="adjustAddressesTemplate" type="text/x-jsrender">
+                <h4>Почтовый индекс: {{*:data["@PostCode"]}}</h4>
+				<h4>Полный адрес: {{*:data["@Address"]}}</h4>
+				<h4>Регион: {{*:data["@REGION"]}}</h4>
+				<h4>Город: {{*:data["@CITY"]}}</h4>
+				<h4>Улица: {{*:data["@STREETNAME"]}}</h4>
+				<h4>Дом: {{*:data["@BUILDINGNUMBER"]}}</h4>    
+            </script>
+			
+			<!-- Шаблон номера телефонов -->
+            <script id="phoneListTemplate" type="text/x-jsrender">
+				{{* for (i=0; i<2; i++) { }}
+                <h4>{{*:i+1}}.  +({{*:data.PhoneList[i]["@Code"]}}) {{*:data.PhoneList[i]["@Number"]}}</h4>
+                {{* } }}			
+            </script>
+			
+			<!-- Шаблон факс -->
+            <script id="faxListTemplate" type="text/x-jsrender">
+				{{* for (i=0; i<2; i++) { }}
+                <h4>{{*:i+1}}.  +({{*:data.FaxList[i]["@Code"]}}) {{*:data.FaxList[i]["@Number"]}}</h4>
+                {{* } }}			
+            </script>
+			
+			<!-- Шаблон адрес сайта -->
+            <script id="companySite" type="text/x-jsrender">
+				<h4>Сайт: {{*:data}}</h4>			
+            </script>
+			
+			<!-- Шаблон email -->
+            <script id="companyEmail" type="text/x-jsrender">				
+                <h4>Email: {{*:data}}</h4>
+            </script>
+			
+			<!-- Шаблон гос закон 94 -->
+            <script id="federalLaw94" type="text/x-jsrender">	
+				{{* for (i=0; i<data.StateContracts.FederalLaw94.length; i++) { }}
+					<h4>Год: {{*:data.StateContracts.FederalLaw94[i]["@Year"]}}</h4>
+					<h4>Тендер: </h4>
+					<h4 class="paragraph">Допущено: {{*:data.StateContracts.FederalLaw94[i].Tenders["@AdmittedNumber"]}}</h4>
+					<h4 class="paragraph">Не допущено: {{*:data.StateContracts.FederalLaw94[i].Tenders["@NotAdmittedNumber"]}}</h4>
+					<h4 class="paragraph">Кол-во успешных: {{*:data.StateContracts.FederalLaw94[i].Tenders["@WinnerNumber"]}}</h4>
+					<h4>Контракты: </h4>
+					<h4 class="paragraph">Подписано: {{*:data.StateContracts.FederalLaw94[i].Contracts["@SignedNumber"]}}</h4>
+					<h4 class="paragraph">На сумму: {{*:data.StateContracts.FederalLaw94[i].Contracts["@Sum"]}} руб.</h4>
+					<h4>&nbsp;</h4>
+                {{* } }}
+            </script>
+			
+			<!-- Шаблон гос закон 223 -->
+            <script id="federalLaw223" type="text/x-jsrender">				
+                {{* for (i=0; i<data.StateContracts.FederalLaw223.length; i++) { }}
+					<h4>Год: {{*:data.StateContracts.FederalLaw223[i]["@Year"]}}</h4>
+					<h4>Тендер: </h4>
+					<h4 class="paragraph">Допущено: {{*:data.StateContracts.FederalLaw223[i].Tenders["@AdmittedNumber"]}}</h4>
+					<h4 class="paragraph">Не допущено: {{*:data.StateContracts.FederalLaw223[i].Tenders["@NotAdmittedNumber"]}}</h4>
+					<h4 class="paragraph">Кол-во успешных: {{*:data.StateContracts.FederalLaw223[i].Tenders["@WinnerNumber"]}}</h4>
+					<h4>Контракты: </h4>
+					<h4 class="paragraph">Подписано: {{*:data.StateContracts.FederalLaw223[i].Contracts["@SignedNumber"]}}</h4>
+					<h4 class="paragraph">На сумму: {{*:data.StateContracts.FederalLaw223[i].Contracts["@Sum"]}} руб.</h4>
+					<h4>&nbsp;</h4>
+                {{* } }}
+            </script>
+
+            <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/jsrender.min.js"></script>
+            <script type="text/javascript" src="js/jquery.spincrement.min.js"></script>
+            <script type="text/javascript" src="js/site.js"></script>
+</body>
+</html>
