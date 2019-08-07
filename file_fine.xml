@@ -1,0 +1,119 @@
+<MasterCatalog>
+  <MasterCatalogID>18/4.3/новыйТЕСТ20</MasterCatalogID>
+  <DeliveryPercent>2</DeliveryPercent>
+  <DiscountPercent>7</DiscountPercent>
+  <Company>
+    <Name>ТестПоставка (ДЛЯ РАЗРАБОТЧИКОВ)</Name>
+    <City>Москва</City>
+    <INN>000000000000</INN>
+    <KPP>000000000</KPP>
+    <Email>zatemage@lagify.com</Email>
+  </Company>
+  <Categories>
+    <Category>
+      <NameMTR>Расходные материалы и комплектующие к медицинскому оборудованию</NameMTR>
+      <CodeMTR>4.14.3</CodeMTR>
+      <MasterPositions>
+        <MasterPosition>
+          <Code>18/4.3/новыйТЕСТ20_13.99.19_4.14.3 _000001</Code>
+          <Name>ТЕСТ ПАУЛЬ ХАРТМАНН Молимед Премиум прокладки урологические макси №14 (168287)</Name>
+          <DeliveryDaysLimit>30</DeliveryDaysLimit>
+          <PriceChangeDaysLimit>180</PriceChangeDaysLimit>
+          <ThresholdValue>2</ThresholdValue>
+          <ThresholdValueParticipant>10</ThresholdValueParticipant>
+          <ChangeIndicatorInflation>0</ChangeIndicatorInflation>
+          <ChangeIndicatorMetalLME>Cu</ChangeIndicatorMetalLME>
+          <ChangeIndicatorLME>0.59</ChangeIndicatorLME>
+          <ChangeIndicatorCurrencyRatio>0</ChangeIndicatorCurrencyRatio>
+          <OKPD2>13.99.19</OKPD2>
+          <Unit>778</Unit>
+          <PriceNoVatLimit>50</PriceNoVatLimit>
+          <Currency>643</Currency>
+	      <Vat>20.00</Vat>
+          <AssortPositions>
+            <AssortPosition>
+              <Code>18/4.3/новыйТЕСТ20_13.99.19_4.14.3 _000001_000001</Code>
+              <Name>ТЕСТ ПАУЛЬ ХАРТМАНН Молимед Премиум прокладки урологические макси №14 (168287)</Name>
+              <DeliveryDaysLimit>30</DeliveryDaysLimit>
+              <PriceChangeDaysLimit>180</PriceChangeDaysLimit>
+              <ThresholdValue>2</ThresholdValue>
+              <ThresholdValueParticipant>10</ThresholdValueParticipant>
+              <ChangeIndicatorInflation>0</ChangeIndicatorInflation>
+              <ChangeIndicatorMetalLME>Cu</ChangeIndicatorMetalLME>
+              <ChangeIndicatorLME>0.59</ChangeIndicatorLME>
+              <ChangeIndicatorCurrencyRatio>0</ChangeIndicatorCurrencyRatio>
+              <Products>
+                <Product>
+                  <ExternalSourceId>95d664d3-ef6d-4132-97eb-381956e4e6dd</ExternalSourceId>
+                  <Name>Товар 1-1 0207</Name>
+                  <DeliveryDaysMax>30</DeliveryDaysMax>
+                  <Unit>778</Unit>
+                  <PriceNoVat>3</PriceNoVat>
+                  <Vat>20</Vat>
+                  <Currency>643</Currency>
+                  <BuyStep>1</BuyStep>
+                  <MinimumBuy>1</MinimumBuy>
+                  <Producer>1Пауль Хартманн АГ</Producer>
+				  <Article>168287</Article>
+                </Product>
+				<Product>
+                  <ExternalSourceId>95d664d3-ef6d-4132-97eb-381956e4e6da</ExternalSourceId>
+                  <Name>Товар 2 0207</Name>
+                  <DeliveryDaysMax>30</DeliveryDaysMax>
+                  <Unit>778</Unit>
+                  <PriceNoVat>5</PriceNoVat>
+                  <Vat>20</Vat>
+                  <Currency>643</Currency>
+                  <BuyStep>1.5</BuyStep>
+                  <MinimumBuy>1</MinimumBuy>
+                  <Producer>1Пауль Хартманн АГ</Producer>
+				  <Article>168288</Article>
+                </Product>
+              </Products>
+            </AssortPosition>	
+			<AssortPosition>
+              <Code>18/4.3/новыйТЕСТ20_13.99.19_4.14.3 _000002_000003</Code>
+              <Name>Ассортимент2ТЕСТ ПАУЛЬ ХАРТМАНН Молимед Премиум прокладки урологические макси №14 (168287)</Name>
+              <DeliveryDaysLimit>30</DeliveryDaysLimit>
+              <PriceChangeDaysLimit>180</PriceChangeDaysLimit>
+              <ThresholdValue>2</ThresholdValue>
+              <ThresholdValueParticipant>10</ThresholdValueParticipant>
+              <ChangeIndicatorInflation>0</ChangeIndicatorInflation>
+              <ChangeIndicatorMetalLME>Cu</ChangeIndicatorMetalLME>
+              <ChangeIndicatorLME>0.59</ChangeIndicatorLME>
+              <ChangeIndicatorCurrencyRatio>0</ChangeIndicatorCurrencyRatio>
+              <Products>
+                <Product>
+                  <ExternalSourceId>083263f0-e2bd-4efd-a615-75a2e1136f0a</ExternalSourceId>
+                  <Name>Товар 3 0207</Name>
+                  <DeliveryDaysMax>30</DeliveryDaysMax>
+                  <Unit>778</Unit>
+                  <PriceNoVat>5</PriceNoVat>
+                  <Vat>20</Vat>
+                  <Currency>643</Currency>
+                  <BuyStep>1</BuyStep>
+                  <MinimumBuy>1</MinimumBuy>
+                  <Producer>1Пауль Хартманн АГсвыааввапвыапвыапв</Producer>
+				  <Article>168286</Article>
+                </Product>
+				<Product>
+                  <ExternalSourceId>07da0990-2576-4f1b-badd-63b9aa717bbe</ExternalSourceId>
+                  <Name>Товар 4 0207</Name>
+                  <DeliveryDaysMax>30</DeliveryDaysMax>
+                  <Unit>778</Unit>
+                  <PriceNoVat>5</PriceNoVat>
+                  <Vat>20</Vat>
+                  <Currency>643</Currency>
+                  <BuyStep>1</BuyStep>
+                  <MinimumBuy>1</MinimumBuy>
+                  <Producer>1Пауль Хартманн АГ</Producer>
+				  <Article>168289</Article>
+                </Product>
+              </Products>
+            </AssortPosition>			
+          </AssortPositions>
+        </MasterPosition>
+      </MasterPositions>
+    </Category>
+  </Categories>
+</MasterCatalog>
